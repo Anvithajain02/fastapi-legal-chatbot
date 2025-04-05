@@ -10,9 +10,9 @@ app = FastAPI()
 
 # Set up OpenAI API (Replace with your valid API key)
 openai_client = openai.AzureOpenAI(
-    api_key="8fJEwLBDb3O6SHQrdK6VVN9nv8nEWyZdftjiWJzDqSgaL3T4vqnMJQQJ99BCACHYHv6XJ3w3AAAAACOGW07i",
+    api_key="YOUR_API_KEY",
     api_version="2023-12-01-preview",
-    azure_endpoint="https://anvit-m8dfc32a-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-35-turbo/chat/completions?api-version=2024-10-21"
+    azure_endpoint="your_endpoint"
 )
 
 # Document storage directory
